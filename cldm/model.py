@@ -2,6 +2,8 @@ import os
 import torch
 
 from omegaconf import OmegaConf
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from ldm.util import instantiate_from_config
 
 
